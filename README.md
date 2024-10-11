@@ -46,4 +46,4 @@ git clone https://github.com/your-github-username/cnn-facial-expression.git
 pip install -r 
 
 4. Run the notebook:
-jupyter notebook cnn_facial_expression_classification.ipynb
+jupyter notebook HBO_Movies_TV_Show_Ratigns.ipynb
