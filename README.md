@@ -3,7 +3,8 @@
 ## Project Overview
 This project focuses on the development of a Convolutional Neural Network (CNN) using PyTorch to classify human facial expressions accurately. By leveraging advanced data preprocessing and CNN architectures, the project aims to effectively classify expressions such as Happy, Angry, and Sad with high accuracy.
 
-## Complete Report Below:
+## View Complete Report Below:
+[View Project Report](./ProjectReport.pdf)
 
 
 ## Technologies Used
