@@ -21,7 +21,7 @@ The project aims to answer key questions such as:
 - How have audience sentiments towards certain genres changed over time?
 
 ## View Complete Report Below:
-[View the Detailed Project Report](./ProjectReport.pdf)
+[View the Detailed Project Report](Movie_and_TV_Show_Ratings_Data_Analysis_Capstone_Project_Report.pdf)
 
 ## Methods and Technologies
 - **Python**: For scripting and analysis
