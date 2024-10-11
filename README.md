@@ -1,38 +1,39 @@
-# CNN Facial Expression Classification
+# Movie and TV Show Ratings Data Analysis
 
-## Project Overview
-This project focuses on the development of a Convolutional Neural Network (CNN) using PyTorch to classify human facial expressions accurately. By leveraging advanced data preprocessing and CNN architectures, the project aims to effectively classify expressions such as Happy, Angry, and Sad with high accuracy.
+## Overview
+This project explores the influence of various factors on IMDb and Rotten scores of movies and TV shows, utilizing datasets from HBO, HBO Max, and IMDb. Through extensive data analysis, our team aimed to uncover insights that could potentially guide the creation of highly-rated content.
+
+## Team Members
+- Justin Kim
+- Anya Debelynska
+- Brandon Lequang
+- Jimmy Chu
+- Alexander Okonkwo
+
+## Datasets Used
+- **HBO and HBO Max Content Dataset**: Contains several thousand entries covering titles, genres, platforms, and more from 1915 to 2020.
+- **IMDB Movies Dataset**: Includes details like IMDb scores, gross profits, and runtimes up to the year 2020.
+
+## Objectives
+The project aims to answer key questions such as:
+- What impact do factors like age rating, platforms, and genres have on IMDb or Rotten scores?
+- Which genres are most popular according to IMDb or Rotten scores?
+- How have audience sentiments towards certain genres changed over time?
 
 ## View Complete Report Below:
-[View Project Report](Movie_and_TV_Show_Ratings_Data_Analysis_Capstone_Project_Report.pdf)
+[View the Detailed Project Report](./ProjectReport.pdf)
 
-
-## Technologies Used
-- **Python**: Primary programming language
-- **PyTorch**: Used for building and training the CNN
+## Methods and Technologies
+- **Python**: For scripting and analysis
 - **Pandas**: For data manipulation and analysis
-
-## Methodology
-The approach includes several key phases:
-1. **Data Preprocessing**: Enhancing image quality for optimal CNN performance.
-2. **CNN Architecture**: Implementing multiple convolutional layers, batch normalization, and dropout to reduce overfitting and improve learning efficacy.
-3. **Training**: Utilizing the AdamW optimizer and OneCycleLR scheduler to aggressively manage the learning rate across 15 epochs.
+- **Sklearn**: Used for regression analysis
+- **Data Cleaning**: Handling missing values, outliers, and erroneous data
+- **Feature Engineering**: Creating boolean variables for categorical data
+- **Data Visualization**: Using histograms, heat maps, and line graphs to represent data trends
 
 ## Results
-- Initial validation accuracy: 76.35%
-- Final validation accuracy after testing: 77.20%
-- The training process demonstrated the CNN's capacity to learn from facial expressions, highlighting potential areas for further optimization.
+- Initial analyses using linear and logistic regression to understand the relationship between different variables and movie scores.
+- Exploration of genre popularity over time and its impact on audience sentiment.
 
-## How to Run
-To replicate or contribute to this project, follow these steps:
-1. Clone the repository: git clone [github repo URL]
-2. Install the required packages: pip install -r
-3. Run the notebook: jupyter notebook cnn_facial_expression_classification.ipynb
-
-
-
-## Contributing
-Contributions to the project are welcome! To contribute, please fork the repository, make your changes, and submit a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## How to Run the Project
+1. Clone the repository:
