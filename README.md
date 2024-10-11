@@ -37,3 +37,13 @@ The project aims to answer key questions such as:
 
 ## How to Run the Project
 1. Clone the repository:
+## How to Run
+To replicate or contribute to this project, follow these steps:
+1. Clone the repository:
+git clone https://github.com/your-github-username/cnn-facial-expression.git
+
+2. Install the required packages:
+pip install -r 
+
+4. Run the notebook:
+jupyter notebook cnn_facial_expression_classification.ipynb
