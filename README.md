@@ -25,9 +25,11 @@ The approach includes several key phases:
 
 ## How to Run
 To replicate or contribute to this project, follow these steps:
-1. Clone the repository:
-2. Install the required packages:
-3. Run the notebook:
+1. Clone the repository: git clone [github repo URL]
+2. Install the required packages: pip install -r
+3. Run the notebook: jupyter notebook cnn_facial_expression_classification.ipynb
+
+
 
 ## Contributing
 Contributions to the project are welcome! To contribute, please fork the repository, make your changes, and submit a pull request.
